@@ -1,0 +1,161 @@
+@import url();
+
+body {
+    font-family: 'Libre Baskerville', serif;
+    background-color: #155896;
+    color: rgb(5, 4, 3);
+    margin: 0;
+  }
+
+  img {
+    width: 100%;
+  }
+
+  /* section */
+  .section {
+    padding: 2rem 0;
+
+
+  }
+  .section-head{
+    font-size: 2.5rem;
+    margin: 0;
+  }
+
+  .section h3 {
+    font-size: 2rem;
+  }
+
+  /* NAvbar style */
+  #showcase {
+    margin: 0%;
+    padding: 0%;
+    background: url('images/lnd.jpg') no-repeat center/cover;
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    overflow-y: hidden;
+  }
+
+#showcase .container {
+  margin-top: 25vh;
+}
+
+#showcase h1 {
+  font-size: 4rem;
+  margin-bottom: 0%;
+}
+
+#showcase h2 {
+  font-size: 2rem;
+}
+
+.section-main{
+    text-align: center
+}
+header{
+  padding: 0 100px;
+  width: 100%;
+  height: 80px;
+  box-sizing: border-box;
+  background: rgba(255,255,255,.2);
+  box-shadow: 0 5px 15px rgba(0,0,0,.2);
+  transition: .5s;
+}
+.logo {
+  position: relative;
+  display: block;
+  padding: 10px 20px;
+  margin: 20px 0;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  transition: .5s;
+  float: left;
+
+}
+ul{
+  position: relative;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  float: right;
+  transition: .5s;
+}
+ul li{
+  list-style: none;
+}
+ul li a {
+  position: relative;
+  display: block;
+  padding: 10px 20px;
+  margin: 20px 0;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  transition: .5s;
+}
+
+ul li a:hover{
+   background: #155896;
+   color: #fff;
+}
+.toggle {
+  display: none;
+  position: absolute;
+  right: 10px;
+  top: 26px;
+  background: #ff0;
+  color: #fff;
+  padding: 5px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+
+
+/* footer */
+footer .footer-cols {
+  display: grid;
+  grid-gap: 20px;
+  grid-template-columns: repeat(4,1fr);
+  padding: 2rem;
+  text-align: left;
+  font-size: 14px;
+}
+
+footer .footer-bottom {
+  padding: 1rem;
+}
+
+@media(max-width: 992px){
+  .toggle{
+    display: block;
+  }
+
+  header {
+    padding: 0 0;
+    background: rgba(255,255,255,.5);
+  }
+  header ul {
+    width: 100%;
+    top: -4px;
+    display: none;
+  }
+  header ul li a {
+    margin: 0;
+    display: block;
+    text-align: center;
+    color: #ffff;
+    background: rgba (0,0,0,.5);
+  }
+  header ul li:hover{
+    background: #155896;
+    color: #fff;
+ }
+
+}
+
+  
