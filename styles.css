@@ -2,7 +2,7 @@
 
 body {
     font-family: 'Libre Baskerville', serif;
-    background-color: #155896;
+    background-color:black;
     color: rgb(5, 4, 3);
     margin: 0;
   }
@@ -30,7 +30,7 @@ body {
   #showcase {
     margin: 0%;
     padding: 0%;
-    background: url('images/lnd.jpg') no-repeat center/cover;
+    background: url('http://www.bu.edu/careers/files/2017/10/desk.jpg') no-repeat center/cover;
     width: 100%;
     height: 100vh;
     position: relative;
