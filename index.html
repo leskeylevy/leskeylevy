@@ -13,7 +13,28 @@
 </head>
 
 <body class="container-fluid">
-  
+  <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+    <a class="navbar-brand" href="#">LESKEY</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item active">
+          <a class="nav-link" href="#About">About <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#Skills">Skills</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#Projects">Projects</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link " href="#Contact">Contact</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
     
     <div id="showcase">
         <div style="background-color:rgba(0, 0, 0, 0.671); padding-top: 150px; padding-bottom:300px;" id="puns">
@@ -25,8 +46,8 @@
         </div>
     </div>
     <!-- about -->
-    <section style="padding-top:80px; padding-bottom: 200px;  id="About" class="section">
-      <div style="background-color:rgba(0, 0, 0, 0.658); color: white;  " class="container">
+    <section style="padding-top:80px; padding-bottom: 200px;"  id="About" class="section">
+      <div style="background-color:white " class="container">
         <h2 class="section-head" style="text-align:center">
       ABOUT
     </h2>
@@ -40,6 +61,7 @@
       I have a very active imagination and as such i enjoy working on projects that employ alot of creativity</h3>
 
       </div>
+      
       <div class="col-md-6 ">
         <img src="images/me.jpg"  alt=""  style="border-radius:50%" >
       </div>
@@ -49,75 +71,130 @@
     </section>
 
     <!-- SKILLS -->
-    <!-- <section style="padding-top:100px; padding-bottom: 200px; background-size: cover; background-repeat: no-repeat; " id="Skills" class="section ">
+    <section style="padding-top:100px; padding-bottom: 200px;background-color: whitesmoke " id="Skills" class="section "> 
       <div class="container">
-          <h2 class="section-head" style="text-align:center;color: azure">SKILLS</h2>
-          <br><br>
-        </div>
-        <br><br>
-        <div class="row">
-          <div class="col-md-6 border-right">
-            <h5  style="text-align:center;color:white">FRONTEND</h5>
-            <div class="row">
-          <div class="col-md-4 ">
-            <img src="images/html.png" class="responsive-img" alt="" style="width:100% ">
-            <p style="color:white">HTML5</p>
-          </div>
-          <div class="col-md-4 ">
-            <img src="images/css.png" class="responsive-img" alt="" style="width:100%">
-            <p style="color:white">CSS3</p>
-          </div>
-         
-          <div class="col-md-4 ">
-            <img src="images/jq.jpg" class="responsive-img" alt="" style="width:100%">
-            <p style="color:white">Jquery</p>
-          </div>
-            </div>
-            <div class="row">
-          <div class="col-md-4 ">
-            <img src="images/bootstrap.png" class="responsive-img" alt="" style="width:100%">
-            <p style="color:white">BOOTSTRAP4</p>
-          </div>
-        
-        
-          <div class="col-md-4 ">
-            <img src="images/angular.png" class="responsive-img" alt="" style="width:100%">
-            <p style="color:white">ANGULAR</p>
-          </div>
-          <div class="col-md-4 ">
-              <img src="images/js.png" class="responsive-img" alt="" style="width:100%">
-              <p style="color:white">JAVASCRIPT</p>
-          </div>
-        </div>
-      </div>
-        
-        
-        
-          <div class="col-md-6">
-              <h5  style="text-align:center;color:white">BACKEND</h5>
-              <div class="row">
-          <div class="col-md-4 ">
-            <img src="images/flask.png" class="responsive-img" alt="" style="width:100%">
-            <p style="color:white">FLASK</p>
-          </div>
-          <div class="col-md-4 ">
-            <img src="images/django.png" class="responsive-img" alt="" style="width:100%">
-            <p style="color:white">DJANGO</p>
-          </div>
-          
-          <div class="col-md-4 ">
-            <img src="images/python.png" class="responsive-img" alt="" style="width:100%">
-            <p style="color:white">PYTHON</p>
-          </div>
+        <div id="skills">
+          <h4 style="text-align:center; ">TECHNICAL SKILLS</h4>
+          <br />
+          <div class="row">
+            <div class="col-md-4">
+              <div class="card" style="width: 20rem;">
+                <div class="card-header">FRONT END</div>
+                <ul class="list-group list-group-flush">
+                  <li class="list-group-item">
+                    <i
+                      class="fa fa-caret-square-o-right"
+                      style="color:#008080;"
+                    ></i>
+                    HTML
+                  </li>
+                  <li class="list-group-item">
+                    <i
+                      class="fa fa-caret-square-o-right"
+                      style="color:#008080;"
+                    ></i>
+                    CSS
+                  </li>
+                  <li class="list-group-item">
+                    <i
+                      class="fa fa-caret-square-o-right"
+                      style="color:#008080;"
+                    ></i>
+                    Bootstrap
+                  </li>
+                  <li class="list-group-item">
+                    <i
+                      class="fa fa-caret-square-o-right"
+                      style="color:#008080;"
+                    ></i>
+                    JavaScript/JQuery
+                  </li>
+                  <li class="list-group-item">
+                    <i
+                      class="fa fa-caret-square-o-right"
+                      style="color:#008080;"
+                    ></i>
+                    Angular
+                  </li>
+                </ul>
               </div>
-              <div class="row">
-          <div class="col-md-4 ">
-              <img src="images/psql.png" class="responsive-img" alt="" style="width:100%">
-              <p style="color:white">PSQL</p>
+            </div>
+  
+            <div class="col-md-4">
+              <div class="card" style="width: 20rem;">
+                <div class="card-header">BACK END</div>
+                <ul class="list-group list-group-flush">
+                  <li class="list-group-item">
+                    <i
+                      class="fa fa-caret-square-o-right"
+                      style="color:#008080;"
+                    ></i>
+                    Python
+                  </li>
+                  <li class="list-group-item">
+                    <i
+                      class="fa fa-caret-square-o-right"
+                      style="color:#008080;"
+                    ></i>
+                    CSS
+                  </li>
+                  <li class="list-group-item">
+                    <i
+                      class="fa fa-caret-square-o-right"
+                      style="color:#008080;"
+                    ></i>
+                    PostgreSQL database
+                  </li>
+                </ul>
+              </div>
+            </div>
+  
+            <div class="col-md-4">
+              <div class="card" style="width: 20rem;">
+                <div class="card-header">FRAMEWORKS AND TOOLS</div>
+                <ul class="list-group list-group-flush">
+                  <li class="list-group-item">
+                    <i
+                      class="fa fa-caret-square-o-right"
+                      style="color:#008080;"
+                    ></i>
+                    Bootstrap
+                  </li>
+                  <li class="list-group-item">
+                    <i
+                      class="fa fa-caret-square-o-right"
+                      style="color:#008080;"
+                    ></i>
+                    Flask
+                  </li>
+                  <li class="list-group-item">
+                    <i
+                      class="fa fa-caret-square-o-right"
+                      style="color:#008080;"
+                    ></i>
+                    Django
+                  </li>
+                  <li class="list-group-item">
+                    <i
+                      class="fa fa-caret-square-o-right"
+                      style="color:#008080;"
+                    ></i>
+                    Github
+                  </li>
+                  <li class="list-group-item">
+                    <i
+                      class="fa fa-caret-square-o-right"
+                      style="color:#008080;"
+                    ></i>
+                    Heroku
+                  </li>
+                </ul>
+              </div>
             </div>
           </div>
+          <br /><br />
         </div>
-          </div>
+        <br />
         
         </div>
       
