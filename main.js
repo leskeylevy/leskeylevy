@@ -119,3 +119,6 @@ $(function() {
   }
   
   // navbar
+
+  // animated skills
+  
